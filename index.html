@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buscador y Mapa de Proyectos</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/leaflet"></script> <!-- Añadir Leaflet -->
     <script src="script.js" defer></script>
-    <!-- Asegúrate de incluir cualquier otra librería o archivo necesario -->
 </head>
 <body>
     <!-- Sección del buscador -->
@@ -34,7 +34,7 @@
 
     <!-- Sección del mapa -->
     <div id="mapContainer">
-        <iframe id="mapFrame" src="mapa_proyectos_ciudades.html" width="100%" height="600px" style="border:none;"></iframe>
+        <div id="map"></div> <!-- Aquí se renderiza el mapa -->
     </div>
 </body>
 </html>
