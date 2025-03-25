@@ -3,39 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buscador de Proyectos</title>
+    <title>Buscador de Proyectos con Mapa</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            padding: 20px;
-        }
-        input {
-            margin: 5px;
-            padding: 8px;
-            width: 200px;
-        }
-        .proyecto {
-            border: 1px solid #ccc;
-            padding: 10px;
-            margin: 10px 0;
-        }
+        #map { height: 500px; }
+        .container { display: flex; gap: 20px; }
+        .sidebar { width: 300px; }
     </style>
 </head>
 <body>
+    <h1>Buscador de Proyectos con Mapa</h1>
+    
+    <div class="container">
+        <div class="sidebar">
+            <input type="text" id="search" placeholder="Buscar proyectos...">
+            <ul id="project-list"></ul>
+        </div>
+        <div id="map"></div>
+    </div>
 
-    <h1>Buscador de Proyectos</h1>
+    <script>
+        let proyectos = [];
+        
+        // Cargar datos desde el JSON
+        fetch('proyectos.json')
+            .then(response => response.json())
+            .then(data => {
+                proyectos = data;
+                mostrarProyectos(proyectos);
+                mostrarMapa(proyectos);
+            });
 
-    <input type="text" id="buscador" placeholder="Buscar por título...">
-    <input type="text" id="filtro-titulo" placeholder="Filtrar por título">
-    <input type="text" id="filtro-ip" placeholder="Filtrar por IP">
-    <input type="text" id="filtro-universidad" placeholder="Filtrar por universidad">
-    <input type="text" id="filtro-comunidad" placeholder="Filtrar por comunidad">
-    <input type="text" id="filtro-financiacion" placeholder="Filtrar por financiación">
+        function mostrarProyectos(lista) {
+            const listaHTML = document.getElementById('project-list');
+            listaHTML.innerHTML = '';
+            lista.forEach(proyecto => {
+                const item = document.createElement('li');
+                item.innerHTML = `<strong>${proyecto.nombre}</strong> - ${proyecto.universidad} <br>
+                                  <em>${proyecto.IP}</em> - ${proyecto.financiacion}`;
+                listaHTML.appendChild(item);
+            });
+        }
 
-    <div id="proyectos-lista"></div>
-
-    <script src="script.js"></script>
-
+        function mostrarMapa(lista) {
+            const map = L.map('map').setView([40.0, -3.5], 6);
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; OpenStreetMap contributors'
+            }).addTo(map);
+            
+            lista.forEach(proyecto => {
+                if (proyecto.lat && proyecto.lon) {
+                    L.marker([proyecto.lat, proyecto.lon])
+                        .addTo(map)
+                        .bindPopup(`<strong>${proyecto.nombre}</strong><br>
+                                    ${proyecto.universidad}<br>
+                                    <em>${proyecto.IP}</em><br>
+                                    ${proyecto.financiacion}`);
+                }
+            });
+        }
+        
+        document.getElementById('search').addEventListener('input', (e) => {
+            const searchTerm = e.target.value.toLowerCase();
+            const proyectosFiltrados = proyectos.filter(proyecto =>
+                proyecto.nombre.toLowerCase().includes(searchTerm) ||
+                proyecto.IP.toLowerCase().includes(searchTerm) ||
+                proyecto.universidad.toLowerCase().includes(searchTerm) ||
+                proyecto.comunidad.toLowerCase().includes(searchTerm) ||
+                proyecto.financiacion.toLowerCase().includes(searchTerm)
+            );
+            mostrarProyectos(proyectosFiltrados);
+        });
+    </script>
 </body>
 </html>
