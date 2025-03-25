@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_65f1c82ce9f0215478c40b9a6b89060a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_65f1c82ce9f0215478c40b9a6b89060a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_65f1c82ce9f0215478c40b9a6b89060a = L.map(
+                "map_65f1c82ce9f0215478c40b9a6b89060a",
+                {
+                    center: [40.0, -3.5],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4496d023712069734ed24892ee985537 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_4496d023712069734ed24892ee985537.addTo(map_65f1c82ce9f0215478c40b9a6b89060a);
+        
+    
+            var marker_cluster_2bf2c1aa69ad655062524cddbc1b67cf = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_e1b798a81ec81b8f3bc1976810db4cda = L.marker(
+                [41.6523, -4.7245],
+                {
+}
+            ).addTo(marker_cluster_2bf2c1aa69ad655062524cddbc1b67cf);
+        
+    
+            var icon_5d4371b472dfb7ae2b15cc26c14deb33 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3bad47195710e4e06a2c1f85a11669ac = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_11504369879ee1bd8c3e2a43be22339e = $(`<div id="html_11504369879ee1bd8c3e2a43be22339e" style="width: 100.0%; height: 100.0%;"><b>Tecnicas Avanzadas De Inteligencia Artificial Para Detectar Y Combatir Ataques De Ciberseguridad Desconocidos Y Adversarios.</b> (Universidad de Valladolid)<br>IP: <span style="color:blue; font-weight:bold;">Juan Ignacio Rivas Sánchez</span><br>Financiación: 87.782 €<br><a href="resumenes.html?id=0" target="_blank">Resumen del Proyecto</a><br><br></div>`)[0];
+                popup_3bad47195710e4e06a2c1f85a11669ac.setContent(html_11504369879ee1bd8c3e2a43be22339e);
+            
+        
+
+        marker_e1b798a81ec81b8f3bc1976810db4cda.bindPopup(popup_3bad47195710e4e06a2c1f85a11669ac)
+        ;
+
+        
+    
+    
+                marker_e1b798a81ec81b8f3bc1976810db4cda.setIcon(icon_5d4371b472dfb7ae2b15cc26c14deb33);
+            
+    
+            var marker_dcc8a46c4ca9ff551d3d13c3899c3aa2 = L.marker(
+                [40.4168, -3.7038],
+                {
+}
+            ).addTo(marker_cluster_2bf2c1aa69ad655062524cddbc1b67cf);
+        
+    
+            var icon_6b301951a798cc902a4b4ba43218dbc1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_645bf62e410f068e2bde85022753a9ed = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2898070104f1aa968cd7b3656c231c63 = $(`<div id="html_2898070104f1aa968cd7b3656c231c63" style="width: 100.0%; height: 100.0%;"><b>Desarrollo De Modelos De Comportamiento De Usuarios Vulnerables Mediante La Simulacion De Situaciones De Riesgo Potencial En Escenarios De Trafico Urbano Empleando Realidad Virtual</b> (Universidad Politécnica de Madrid)<br>IP: <span style="color:blue; font-weight:bold;">Francisco Javier Páez Ayuso</span><br>Financiación: 169.400 €<br><a href="resumenes.html?id=1" target="_blank">Resumen del Proyecto</a><br><br><b>Simuladores De Conduccion Y Tecnologias Geoespaciales Para Estudios De Seguridad Vial</b> (Universidad Politécnica de Madrid)<br>IP: <span style="color:blue; font-weight:bold;">María Castro Malpica</span><br>Financiación: 146.410 €<br><a href="resumenes.html?id=7" target="_blank">Resumen del Proyecto</a><br><br></div>`)[0];
+                popup_645bf62e410f068e2bde85022753a9ed.setContent(html_2898070104f1aa968cd7b3656c231c63);
+            
+        
+
+        marker_dcc8a46c4ca9ff551d3d13c3899c3aa2.bindPopup(popup_645bf62e410f068e2bde85022753a9ed)
+        ;
+
+        
+    
+    
+                marker_dcc8a46c4ca9ff551d3d13c3899c3aa2.setIcon(icon_6b301951a798cc902a4b4ba43218dbc1);
+            
+    
+            var marker_2dc2a894e829c6d66d278d56ff729bdd = L.marker(
+                [37.9922, -1.1307],
+                {
+}
+            ).addTo(marker_cluster_2bf2c1aa69ad655062524cddbc1b67cf);
+        
+    
+            var icon_fe81b545a112acc64588de4dece1c241 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_08f1aac1ccaa369156e4fee9253a7013 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_aaf695ebb766c18dda23fbda0125c384 = $(`<div id="html_aaf695ebb766c18dda23fbda0125c384" style="width: 100.0%; height: 100.0%;"><b>Gestion Robusta, Interpretable Y Orientada A Humanos De La Ciberseguridad Y La Seguridad En La Industria 5.0</b> (Universidad de Murcia)<br>IP: <span style="color:blue; font-weight:bold;">Félix Jesús García Clemente</span><br>Financiación: 220.704 €<br><a href="resumenes.html?id=6" target="_blank">Resumen del Proyecto</a><br><br><b>Derecho Global Y Crisis Sanitarias: Hacia Una Convencion Mundial Contra Las Pandemias</b> (Universidad de Murcia)<br>IP: <span style="color:blue; font-weight:bold;">Esperanza Castellanos Ruiz</span><br>Financiación: 49.852 €<br><a href="resumenes.html?id=24" target="_blank">Resumen del Proyecto</a><br><br><b>Respuestas Juridicas Y Criminologicas A Los Delitos Cometidos Por Menores De Edad Con Trastorno Por Deficit De Atencion E Hiperactividad (Tdah)</b> (Universidad de Murcia)<br>IP: <span style="color:blue; font-weight:bold;">David Lorenzo Morillas Fernández</span><br>Financiación: 33.125 €<br><a href="resumenes.html?id=74" target="_blank">Resumen del Proyecto</a><br><br></div>`)[0];
+                popup_08f1aac1ccaa369156e4fee9253a7013.setContent(html_aaf695ebb766c18dda23fbda0125c384);
+            
+        
+
+        marker_2dc2a894e829c6d66d278d56ff729bdd.bindPopup(popup_08f1aac1ccaa369156e4fee9253a7013)
+        ;
+
+        
+    
+    
+                marker_2dc2a894e829c6d66d278d56ff729bdd.setIcon(icon_fe81b545a112acc64588de4dece1c241);
+            
+    
+            var marker_c561f4f57abb80442c9ae07cc8b523ef = L.marker(
+                [36.7213, -4.4213],
+                {
+}
+            ).addTo(marker_cluster_2bf2c1aa69ad655062524cddbc1b67cf);
+        
+    
+            var icon_5cf882e60d7d9cf5f8c2b35dfc415c38 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_98ed431330d6b52d45b2d580150d5f83 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_adae6ae262c76b2d62e3bf74c6581bbe = $(`<div id="html_adae6ae262c76b2d62e3bf74c6581bbe" style="width: 100.0%; height: 100.0%;"><b>A Condena De Los Excluidos: Fronteras Institucionales De Los Derechos Humanos</b> (Universidad de Málaga)<br>IP: <span style="color:blue; font-weight:bold;">Alberto Daunis Rodríguez</span><br>Financiación: 24.200 €<br><a href="resumenes.html?id=8" target="_blank">Resumen del Proyecto</a><br><br><b>Prevencion De La Conducta Suicida A Traves De Los Procesos De Comunicacion Efectiva Y Risk Analytics</b> (Universidad de Málaga)<br>IP: <span style="color:blue; font-weight:bold;">José Ignacio Peláez Sánchez</span><br>Financiación: 112.500 €<br><a href="resumenes.html?id=108" target="_blank">Resumen del Proyecto</a><br><br></div>`)[0];
+                popup_98ed431330d6b52d45b2d580150d5f83.setContent(html_adae6ae262c76b2d62e3bf74c6581bbe);
+            
+        
+
+        marker_c561f4f57abb80442c9ae07cc8b523ef.bindPopup(popup_98ed431330d6b52d45b2d580150d5f83)
+        ;
+
+        
+    
+    
+                marker_c561f4f57abb80442c9ae07cc8b523ef.setIcon(icon_5cf882e60d7d9cf5f8c2b35dfc415c38);
+            
+    
+            var marker_7ee209b188febc1e55f6f713dd8b7f27 = L.marker(
+                [43.263, -2.935],
+                {
+}
+            ).addTo(marker_cluster_2bf2c1aa69ad655062524cddbc1b67cf);
+        
+    
+            var icon_bc080a3509cb62c98cb1b4037039d6b8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_96b7845cffd96cc5e4cb5a8caa177b46 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_992ad8bd9f4bd52bb7764964762a49be = $(`<div id="html_992ad8bd9f4bd52bb7764964762a49be" style="width: 100.0%; height: 100.0%;"><b>Condiciones De Seguridad De Periodistas Españoles Que Cubren Conflictos: Elementos Definitorios Y Analisis De Su Seguridad Antes, Durante Y Despues De La Cobertura</b> (Universidad del País Vasco)<br>IP: <span style="color:blue; font-weight:bold;">Leire Iturregui Mardaras</span><br>Financiación: 77.319 €<br><a href="resumenes.html?id=10" target="_blank">Resumen del Proyecto</a><br><br></div>`)[0];
+                popup_96b7845cffd96cc5e4cb5a8caa177b46.setContent(html_992ad8bd9f4bd52bb7764964762a49be);
+            
+        
+
+        marker_7ee209b188febc1e55f6f713dd8b7f27.bindPopup(popup_96b7845cffd96cc5e4cb5a8caa177b46)
+        ;
+
+        
+    
+    
+                marker_7ee209b188febc1e55f6f713dd8b7f27.setIcon(icon_bc080a3509cb62c98cb1b4037039d6b8);
+            
+    
+            var marker_926ebda795b1268cf4fd744c643b30cb = L.marker(
+                [40.4168, -3.7038],
+                {
+}
+            ).addTo(marker_cluster_2bf2c1aa69ad655062524cddbc1b67cf);
+        
+    
+            var icon_727232f46244647e181325fc2bd31f1d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_21d191fecfe69d1a93f730c6e6be3df8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_eabb701cd4787a46bd61566730d901da = $(`<div id="html_eabb701cd4787a46bd61566730d901da" style="width: 100.0%; height: 100.0%;"><b>Estrategias Transversales Para La Prevencion De La Delincuencia Economica Y La Corrupcion</b> (Universidad Complutense de Madrid)<br>IP: <span style="color:blue; font-weight:bold;">Íñigo Ortíz de Urbina Gimeno</span><br>Financiación: 25.410 €<br><a href="resumenes.html?id=12" target="_blank">Resumen del Proyecto</a><br><br><b>Violencia Sexual Digital. Estudio De La Relacion Entre Las Tecnologias Digitales Y Las Practicas De Violencia Sexual Entre Jovenes.</b> (Universidad Complutense de Madrid)<br>IP: <span style="color:blue; font-weight:bold;">Elisa García Mingo</span><br>Financiación: 78.650 €<br><a href="resumenes.html?id=14" target="_blank">Resumen del Proyecto</a><br><br><b>Conflictos Armados Y Crisis Humanitarias: Las Humanidades Y Ciencias Sociales Ante Los Desafios De La Seguridad Multidimensional</b> (Universidad Complutense de Madrid)<br>IP: <span style="color:blue; font-weight:bold;">LYDIA MARIA DE TIENDA PALOP</span><br>Financiación: 31.460 €<br><a href="resumenes.html?id=31" target="_blank">Resumen del Proyecto</a><br><br></div>`)[0];
+                popup_21d191fecfe69d1a93f730c6e6be3df8.setContent(html_eabb701cd4787a46bd61566730d901da);
+            
+        
+
+        marker_926ebda795b1268cf4fd744c643b30cb.bindPopup(popup_21d191fecfe69d1a93f730c6e6be3df8)
+        ;
+
+        
+    
+    
+                marker_926ebda795b1268cf4fd744c643b30cb.setIcon(icon_727232f46244647e181325fc2bd31f1d);
+            
+    
+            var marker_62597a50b1d8f5fa6bee641b629dca02 = L.marker(
+                [38.3452, -0.481],
+                {
+}
+            ).addTo(marker_cluster_2bf2c1aa69ad655062524cddbc1b67cf);
+        
+    
+            var icon_ed25b6e5fe5baa5403ca4665aede2e48 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f0354c2779c386a162c142de43af81ad = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9bc9e8530f376b45c13ea91343e91f0c = $(`<div id="html_9bc9e8530f376b45c13ea91343e91f0c" style="width: 100.0%; height: 100.0%;"><b>Factores De Riesgo Y De Proteccion De La Violencia De Genero Y Del Uso Problematico En Las Redes Sociales: Una Perspectiva Longitudinal</b> (Universidad de Alicante)<br>IP: <span style="color:blue; font-weight:bold;">María del Carmen Martínez Monteagudo</span><br>Financiación: 44.359 €<br><a href="resumenes.html?id=15" target="_blank">Resumen del Proyecto</a><br><br><b>Justicia Digital Para Asuntos Transfronterizos</b> (Universidad de Alicante)<br>IP: <span style="color:blue; font-weight:bold;">Carmen María García Mirete</span><br>Financiación: 20.361 €<br><a href="resumenes.html?id=35" target="_blank">Resumen del Proyecto</a><br><br><b>Desafios Actuales Para Los Derechos Fundamentales Y Nuevos Retos De Las Politicas Publicas: Gobernanza Democratica, Brechas De La Desigualdad E Inteligencia Artificial</b> (Universidad de Alicante)<br>IP: <span style="color:blue; font-weight:bold;"> FERNANDO BALLESTER LAGUNA</span><br>Financiación: 25.625 €<br><a href="resumenes.html?id=101" target="_blank">Resumen del Proyecto</a><br><br></div>`)[0];
+                popup_f0354c2779c386a162c142de43af81ad.setContent(html_9bc9e8530f376b45c13ea91343e91f0c);
+            
+        
+
+        marker_62597a50b1d8f5fa6bee641b629dca02.bindPopup(popup_f0354c2779c386a162c142de43af81ad)
+        ;
+
+        
+    
+    
+                marker_62597a50b1d8f5fa6bee641b629dca02.setIcon(icon_ed25b6e5fe5baa5403ca4665aede2e48);
+            
+    
+            var marker_127c16d97832aaedda6abd0b823fdca9 = L.marker(
+                [37.1773, -3.5986],
+                {
+}
+            ).addTo(marker_cluster_2bf2c1aa69ad655062524cddbc1b67cf);
+        
+    
+            var icon_0238d513072ec44c2affb9a786c67e88 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9faafd51bde6a36c0831ae1f2c65c94d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_33d6e648225c7a78269b414cbc93891c = $(`<div id="html_33d6e648225c7a78269b414cbc93891c" style="width: 100.0%; height: 100.0%;"><b>Violencia Contra Las Mujeres: Consecuencias Para Su Bienestar Psicosocial</b> (Universidad de Granada)<br>IP: <span style="color:blue; font-weight:bold;">Francisca Exposito </span><br>Financiación: 108.658 €<br><a href="resumenes.html?id=16" target="_blank">Resumen del Proyecto</a><br><br><b>Estabilidad Y Cambio De La Conducta Agresiva En La Infancia Y La Niñez: La Influencia Del Entrenamiento En Inteligencia Emocional</b> (Universidad de Granada)<br>IP: <span style="color:blue; font-weight:bold;">Rosario Cabello González</span><br>Financiación: 53.240 €<br><a href="resumenes.html?id=41" target="_blank">Resumen del Proyecto</a><br><br><b>Secuelas Neuropsicologicas Y Cerebrales Asociadas A Golpes Repetidos En El Craneo En Mujeres Victimas De Violencia De Genero</b> (Universidad de Granada)<br>IP: <span style="color:blue; font-weight:bold;">Juan Verdejo Román</span><br>Financiación: 114.708 €<br><a href="resumenes.html?id=46" target="_blank">Resumen del Proyecto</a><br><br><b>Violencias Contra Las Mujeres: Analisis Psicosocial De Nuevas Formas De Expresion Y Mecanismos Explicativos</b> (Universidad de Granada)<br>IP: <span style="color:blue; font-weight:bold;">Hugo Carretero Dios </span><br>Financiación: 88.125 €<br><a href="resumenes.html?id=64" target="_blank">Resumen del Proyecto</a><br><br><b>Secuelas Neuropsicologicas En Hijos E Hijas De Mujeres Victimas De Violencia De Genero (Believe-Child)</b> (Universidad de Granada)<br>IP: <span style="color:blue; font-weight:bold;">Inmaculada María Teva Álvarez</span><br>Financiación: 115.000 €<br><a href="resumenes.html?id=65" target="_blank">Resumen del Proyecto</a><br><br><b>La (Dis)Regulacion Emocional En El Trastorno De Estres Post-Traumatico Complejo En Mujeres Supervivientes De Violencia De Genero: Mecanismos Cerebrales Y App Para Mejorarla</b> (Universidad de Granada)<br>IP: <span style="color:blue; font-weight:bold;">Miguel Pérez García</span><br>Financiación: 187.500 €<br><a href="resumenes.html?id=66" target="_blank">Resumen del Proyecto</a><br><br><b>El Papel Del Funcionamiento Ejecutivo En El Trastorno De Estres Postraumatico Complejo En Mujeres Supervivientes De Violencia De Genero</b> (Universidad de Granada)<br>IP: <span style="color:blue; font-weight:bold;">Natalia Adriana Hidalgo Ruzzante </span><br>Financiación: 124.875 €<br><a href="resumenes.html?id=67" target="_blank">Resumen del Proyecto</a><br><br><b>Aprendizaje-Servicio Universitario Con Migrantes En La Frontera Africa- Europa. Inclusion Y Justicia Social En Educacion Intercultural,Actividad Fisica Y Aprendizaje De Idiomas</b> (Universidad de Granada)<br>IP: <span style="color:blue; font-weight:bold;">Pedro Jesús Ruiz Montero </span><br>Financiación: 49.875 €<br><a href="resumenes.html?id=68" target="_blank">Resumen del Proyecto</a><br><br><b>La (Dis)Regulacion Emocional En El Trastorno De Estres Post- Traumatico Complejo En Mujeres Supervivientes De Violencia De Genero: Mecanismos Cerebrales Y App Para Mejorarla</b> (Universidad de Granada)<br>IP: <span style="color:blue; font-weight:bold;">MIGUEL PÉREZ GARCÍA</span><br>Financiación: 187.500 €<br><a href="resumenes.html?id=93" target="_blank">Resumen del Proyecto</a><br><br><b>Aprendizaje-Servicio Universitario Con Migrantes En La Frontera Africa-Europa. Inclusion Y Justicia Social En Educacion Intercultural,Actividad Fisica Y Aprendizaje De Idiomas</b> (Universidad de Granada)<br>IP: <span style="color:blue; font-weight:bold;">Pedro Jesús Ruiz Montero </span><br>Financiación: 111.758 €<br><a href="resumenes.html?id=94" target="_blank">Resumen del Proyecto</a><br><br><b>Motivaciones,Violencia De Pareja Y Sus Consecuencias (Moviocon): Desarrollo Y Validacion De Una Herramienta Para Esclarecer El Debate De La Simetria De Genero En La Violencia</b> (Universidad de Granada)<br>IP: <span style="color:blue; font-weight:bold;">ANTONELLA LUDMILA ZAPATA CALVENTE</span><br>Financiación: 25.000 €<br><a href="resumenes.html?id=104" target="_blank">Resumen del Proyecto</a><br><br><b>Politicas Feministas: Analisis De Practicas No Punitivas Y Modelos Alternativos En El Contexto De Las Violencias Machistas</b> (Universidad de Granada)<br>IP: <span style="color:blue; font-weight:bold;">ANA ALCÁZAR CAMPOS</span><br>Financiación: 81.250 €<br><a href="resumenes.html?id=105" target="_blank">Resumen del Proyecto</a><br><br></div>`)[0];
+                popup_9faafd51bde6a36c0831ae1f2c65c94d.setContent(html_33d6e648225c7a78269b414cbc93891c);
+            
+        
+
+        marker_127c16d97832aaedda6abd0b823fdca9.bindPopup(popup_9faafd51bde6a36c0831ae1f2c65c94d)
+        ;
+
+        
+    
+    
+                marker_127c16d97832aaedda6abd0b823fdca9.setIcon(icon_0238d513072ec44c2affb9a786c67e88);
+            
+    
+            var marker_6d1d03c53667710ea3ea1d599d4b203c = L.marker(
+                [39.4699, -0.3763],
+                {
+}
+            ).addTo(marker_cluster_2bf2c1aa69ad655062524cddbc1b67cf);
+        
+    
+            var icon_21710766ecdda8d9300307726eaf44c1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_258de7428b632e0a70a366f6116dcc5b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cc769fbdc2202f8d7b04ac90f6609e8d = $(`<div id="html_cc769fbdc2202f8d7b04ac90f6609e8d" style="width: 100.0%; height: 100.0%;"><b>Claves Para Una Justicia Digital Y Algoritmica Con Perspectiva De Genero</b> (Universidad de Valencia)<br>IP: <span style="color:blue; font-weight:bold;">Ana Montesinos García</span><br>Financiación: 32.670 €<br><a href="resumenes.html?id=17" target="_blank">Resumen del Proyecto</a><br><br><b>La Erosion Del Principio De Legalidad En El Sistema De Justicia Penal Contemporaneo: Diagnostico Y Propuestas De Solucion</b> (Universidad de Valencia)<br>IP: <span style="color:blue; font-weight:bold;">Lucía Martínez Garay</span><br>Financiación: 42.592 €<br><a href="resumenes.html?id=20" target="_blank">Resumen del Proyecto</a><br><br><b>Derechos Y Garantias Publicas Frente A Las Decisiones Automatizadas Y El Sesgo Y Discriminacion Algoritmicas</b> (Universidad de Valencia)<br>IP: <span style="color:blue; font-weight:bold;">Jorge Castellanos Claramunt </span><br>Financiación: 44.375 €<br><a href="resumenes.html?id=77" target="_blank">Resumen del Proyecto</a><br><br><b>Ganancias Ilicitas Y Sistema De Justicia Penal: Una Perspectiva Global</b> (Universidad de Valencia)<br>IP: <span style="color:blue; font-weight:bold;">José León Alapont </span><br>Financiación: 66.250 €<br><a href="resumenes.html?id=78" target="_blank">Resumen del Proyecto</a><br><br><b>Desarrollo Y Aplicacion De Un Sistema De Monitorizacion Epidemiologica Para La Vigilancia Y Prediccion Del Riesgo De Violencia De Genero En España</b> (Universidad de Valencia)<br>IP: <span style="color:blue; font-weight:bold;">Enrique Gracia Fuster</span><br>Financiación: 62.500 €<br><a href="resumenes.html?id=79" target="_blank">Resumen del Proyecto</a><br><br><b>Evaluacion, Prevencion E Intervencion De Conductas Suicidas En Personas Mayores Que Viven En Residencias</b> (Universidad de Valencia)<br>IP: <span style="color:blue; font-weight:bold;">Alicia Sales Galan</span><br>Financiación: 19.750 €<br><a href="resumenes.html?id=80" target="_blank">Resumen del Proyecto</a><br><br><b>Nuevos Paradigmas En La Representacion Cultural De Los Espacios De Violencia De Masas: Mirar Y Contar El Siglo Xx Desde El Xxi</b> (Universidad de Valencia)<br>IP: <span style="color:blue; font-weight:bold;">Vicente Sánchez Biosca</span><br>Financiación: 75.000 €<br><a href="resumenes.html?id=81" target="_blank">Resumen del Proyecto</a><br><br></div>`)[0];
+                popup_258de7428b632e0a70a366f6116dcc5b.setContent(html_cc769fbdc2202f8d7b04ac90f6609e8d);
+            
+        
+
+        marker_6d1d03c53667710ea3ea1d599d4b203c.bindPopup(popup_258de7428b632e0a70a366f6116dcc5b)
+        ;
+
+        
+    
+    
+                marker_6d1d03c53667710ea3ea1d599d4b203c.setIcon(icon_21710766ecdda8d9300307726eaf44c1);
+            
+    
+            var marker_22fab632a8cebe28a97479a63baa04fc = L.marker(
+                [41.3851, 2.1734],
+                {
+}
+            ).addTo(marker_cluster_2bf2c1aa69ad655062524cddbc1b67cf);
+        
+    
+            var icon_68f3e4321162082b97a19df1e1dc0971 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fb8b35a0a5bd877d7dfe35fca3edb74a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7b57467ab14a09e594ea5fa225fbe561 = $(`<div id="html_7b57467ab14a09e594ea5fa225fbe561" style="width: 100.0%; height: 100.0%;"><b>Violencia Psicologica Para La Dominacion En Contextos Interpersonales Y Grupales</b> (Universidad de Barcelona)<br>IP: <span style="color:blue; font-weight:bold;">Alvaro Rodriguez Carballeira</span><br>Financiación: 46.779 €<br><a href="resumenes.html?id=19" target="_blank">Resumen del Proyecto</a><br><br><b>Nuevos Retos Y Reformas Pendientes De La Justicia Penal De Menores</b> (Universidad de Barcelona)<br>IP: <span style="color:blue; font-weight:bold;">Sergi Cardenal Montraveta</span><br>Financiación: 36.542 €<br><a href="resumenes.html?id=29" target="_blank">Resumen del Proyecto</a><br><br><b>Entendiendo La Cohesion Social: La Interaccion Entre Educacion Y Las Conductas Delictivas</b> (Universidad de Barcelona)<br>IP: <span style="color:blue; font-weight:bold;">José María Gurán Cabré</span><br>Financiación: 26.500 €<br><a href="resumenes.html?id=56" target="_blank">Resumen del Proyecto</a><br><br><b>Violencia Extrema Sobre La Mujer: Respuesta Penal Y Alternativas Para La Prevencion</b> (Universidad de Barcelona)<br>IP: <span style="color:blue; font-weight:bold;">Carolina Bolea Bardon</span><br>Financiación: 46.250 €<br><a href="resumenes.html?id=57" target="_blank">Resumen del Proyecto</a><br><br><b>Resolucion Y Prevencion De Conflictos Societarios: Buen Gobierno, Pactos De Socios, Eficiencia Procesal, Medios Alternativos A La Litigacion Y Justicia Predictiva</b> (Universidad de Barcelona)<br>IP: <span style="color:blue; font-weight:bold;">Daniel Vázquez Albert </span><br>Financiación: 46.250 €<br><a href="resumenes.html?id=58" target="_blank">Resumen del Proyecto</a><br><br><b>Tensiones Entre El Derecho A La Vivienda Y La Propiedad Privada En Las Relaciones De Arrendamiento. Un Enfoque Sociojuridico</b> (Universidad de Barcelona)<br>IP: <span style="color:blue; font-weight:bold;">Irene Sabaté Muriel</span><br>Financiación: 72.250 €<br><a href="resumenes.html?id=59" target="_blank">Resumen del Proyecto</a><br><br><b>Vivencias De Mujeres Y Profesionales Sanitarios En La Perdida Perinatal E Interrupcion De Embarazo: Vulnerabilidad, Violencia Obstetrica Y Toma De Decisiones</b> (Universidad de Barcelona)<br>IP: <span style="color:blue; font-weight:bold;">Josefina Goberna-Tricas</span><br>Financiación: 44.750 €<br><a href="resumenes.html?id=60" target="_blank">Resumen del Proyecto</a><br><br><b>Superacion De La Violencia Sexual Y De Genero Hacia Mujeres Jovenes En El Ocio Nocturno.</b> (Universidad de Barcelona)<br>IP: <span style="color:blue; font-weight:bold;">Sin información</span><br>Financiación: 43.750 €<br><a href="resumenes.html?id=102" target="_blank">Resumen del Proyecto</a><br><br><b>Violencia De Genero En Las Universidades Españolas: Balance De Los Avances 2005 2025, Situacion Actual Y Acciones Futuras</b> (Universidad de Barcelona)<br>IP: <span style="color:blue; font-weight:bold;">Marta Soler Gallart</span><br>Financiación: 37.500 €<br><a href="resumenes.html?id=103" target="_blank">Resumen del Proyecto</a><br><br></div>`)[0];
+                popup_fb8b35a0a5bd877d7dfe35fca3edb74a.setContent(html_7b57467ab14a09e594ea5fa225fbe561);
+            
+        
+
+        marker_22fab632a8cebe28a97479a63baa04fc.bindPopup(popup_fb8b35a0a5bd877d7dfe35fca3edb74a)
+        ;
+
+        
+    
+    
+                marker_22fab632a8cebe28a97479a63baa04fc.setIcon(icon_68f3e4321162082b97a19df1e1dc0971);
+            
+    
+            var marker_4cef23cf924fa2f35c289db9ef6f6948 = L.marker(
+                [42.3439, -3.6969],
+                {
+}
+            ).addTo(marker_cluster_2bf2c1aa69ad655062524cddbc1b67cf);
+        
+    
+            var icon_6905907ccf8cc71b0b81b513aeda6bc4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b4999ba711c81ea6eef9e2b35d35b452 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3da731deb3037eae7b16dcafb3da8712 = $(`<div id="html_3da731deb3037eae7b16dcafb3da8712" style="width: 100.0%; height: 100.0%;"><b>El Derecho Procesal Civil Y Penal Desde La Perspectiva De La Union Europea: La Consolidacion Del Espacio De Libertad, Seguridad Y Justicia</b> (Universidad de Burgos)<br>IP: <span style="color:blue; font-weight:bold;">Mar Jimeno Bulnes</span><br>Financiación: 44.770 €<br><a href="resumenes.html?id=22" target="_blank">Resumen del Proyecto</a><br><br></div>`)[0];
+                popup_b4999ba711c81ea6eef9e2b35d35b452.setContent(html_3da731deb3037eae7b16dcafb3da8712);
+            
+        
+
+        marker_4cef23cf924fa2f35c289db9ef6f6948.bindPopup(popup_b4999ba711c81ea6eef9e2b35d35b452)
+        ;
+
+        
+    
+    
+                marker_4cef23cf924fa2f35c289db9ef6f6948.setIcon(icon_6905907ccf8cc71b0b81b513aeda6bc4);
+            
+    
+            var marker_a01ac4ef4fec3ba3ceae52bd630c182e = L.marker(
+                [37.8882, -4.7794],
+                {
+}
+            ).addTo(marker_cluster_2bf2c1aa69ad655062524cddbc1b67cf);
+        
+    
+            var icon_8ec52d0acc990dd5d93071aa86190741 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8d7bc04f26506700dcaf2486e0008e67 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4a95836774967f9bd271ecdc2f481ccd = $(`<div id="html_4a95836774967f9bd271ecdc2f481ccd" style="width: 100.0%; height: 100.0%;"><b>Competencias Clave Del Profesorado Para La Prevencion De Las Ciberconductas Antisociales Del Alumnado En La Eso</b> (Universidad de Córdoba)<br>IP: <span style="color:blue; font-weight:bold;">Vicente J. Llorent</span><br>Financiación: 31.097 €<br><a href="resumenes.html?id=23" target="_blank">Resumen del Proyecto</a><br><br></div>`)[0];
+                popup_8d7bc04f26506700dcaf2486e0008e67.setContent(html_4a95836774967f9bd271ecdc2f481ccd);
+            
+        
+
+        marker_a01ac4ef4fec3ba3ceae52bd630c182e.bindPopup(popup_8d7bc04f26506700dcaf2486e0008e67)
+        ;
+
+        
+    
+    
+                marker_a01ac4ef4fec3ba3ceae52bd630c182e.setIcon(icon_8ec52d0acc990dd5d93071aa86190741);
+            
+    
+            var marker_90db67a3c38c6a19133724b78f43f479 = L.marker(
+                [40.9701, -5.6635],
+                {
+}
+            ).addTo(marker_cluster_2bf2c1aa69ad655062524cddbc1b67cf);
+        
+    
+            var icon_60965a9a7efed02a7cdd6031da78599f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_65602de5c3dd186b43434aeb125420a4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9af84e706f77cd3292fe76db39d98df7 = $(`<div id="html_9af84e706f77cd3292fe76db39d98df7" style="width: 100.0%; height: 100.0%;"><b>Desafios De Una Administracion Tributaria Mas Eficaz: Digitalizacion Inclusiva, Compliance, Y Mejoras En Seguridad Juridica</b> (Universidad de Salamanca)<br>IP: <span style="color:blue; font-weight:bold;">María Ángeles Guervós Maíllo</span><br>Financiación: 21.780 €<br><a href="resumenes.html?id=40" target="_blank">Resumen del Proyecto</a><br><br><b>Tratamiento Procesal De Los Delitos De Odio Cometidos A Traves De Medios Tecnologicos</b> (Universidad de Salamanca)<br>IP: <span style="color:blue; font-weight:bold;">Federico Bueno de Mata</span><br>Financiación: 30.250 €<br><a href="resumenes.html?id=45" target="_blank">Resumen del Proyecto</a><br><br><b>Analisis Critico Del Derecho Penal De La Plutofilia (Plutopenal)</b> (Universidad de Salamanca)<br>IP: <span style="color:blue; font-weight:bold;">Ana Isabel Pérez Cepeda</span><br>Financiación: 50.000 €<br><a href="resumenes.html?id=76" target="_blank">Resumen del Proyecto</a><br><br></div>`)[0];
+                popup_65602de5c3dd186b43434aeb125420a4.setContent(html_9af84e706f77cd3292fe76db39d98df7);
+            
+        
+
+        marker_90db67a3c38c6a19133724b78f43f479.bindPopup(popup_65602de5c3dd186b43434aeb125420a4)
+        ;
+
+        
+    
+    
+                marker_90db67a3c38c6a19133724b78f43f479.setIcon(icon_60965a9a7efed02a7cdd6031da78599f);
+            
+    
+            var marker_188422ab667dd0699f77ada9c3323e82 = L.marker(
+                [37.3886, -5.9823],
+                {
+}
+            ).addTo(marker_cluster_2bf2c1aa69ad655062524cddbc1b67cf);
+        
+    
+            var icon_8da115994e4566522badaf36dc43d6a1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_37183957e16425058ef8851cb8bf89d5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_730e965dba20aab3b97fd3d9570c0903 = $(`<div id="html_730e965dba20aab3b97fd3d9570c0903" style="width: 100.0%; height: 100.0%;"><b>Violencia Filio-Parental En La Adolescencia: Deteccion, Perfiles Psicosociales Y Actuacion</b> (Universidad de Sevilla)<br>IP: <span style="color:blue; font-weight:bold;">María Victoria Hidalgo García</span><br>Financiación: 38.357 €<br><a href="resumenes.html?id=42" target="_blank">Resumen del Proyecto</a><br><br><b>Uso Seguro Y No Violento De Las Redes Sociales En Adolescentes: Analisis De Los Factores Asociados Y Su Impacto En La Actuacion Psicoeducativa</b> (Universidad de Sevilla)<br>IP: <span style="color:blue; font-weight:bold;">Mónica Ojeda Pérez</span><br>Financiación: 100.000 €<br><a href="resumenes.html?id=109" target="_blank">Resumen del Proyecto</a><br><br><b>Tecnicas Cripto-Biometricas Y Soluciones Hardware Para Carteras De Identidades Auto-Soberanas Con Alto Nivel De Seguridad</b> (Universidad de Sevilla)<br>IP: <span style="color:blue; font-weight:bold;">Ángel Barriga Barros</span><br>Financiación: 184.500 €<br><a href="resumenes.html?id=110" target="_blank">Resumen del Proyecto</a><br><br></div>`)[0];
+                popup_37183957e16425058ef8851cb8bf89d5.setContent(html_730e965dba20aab3b97fd3d9570c0903);
+            
+        
+
+        marker_188422ab667dd0699f77ada9c3323e82.bindPopup(popup_37183957e16425058ef8851cb8bf89d5)
+        ;
+
+        
+    
+    
+                marker_188422ab667dd0699f77ada9c3323e82.setIcon(icon_8da115994e4566522badaf36dc43d6a1);
+            
+    
+            var marker_1031cc7c41359cd0607f2d36bb59fac2 = L.marker(
+                [43.4623, -3.8099],
+                {
+}
+            ).addTo(marker_cluster_2bf2c1aa69ad655062524cddbc1b67cf);
+        
+    
+            var icon_6da9fccc2a9720160dead6d717e536ce = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e572c615c01105717f391132770ba252 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f8358c3c1430d23fc7179ca6335e1930 = $(`<div id="html_f8358c3c1430d23fc7179ca6335e1930" style="width: 100.0%; height: 100.0%;"><b>Derecho Penal Y Distribucion De La Riqueza En La Sociedad Tecnologica (Ii)</b> (Universidad de Cantabria)<br>IP: <span style="color:blue; font-weight:bold;">Paz Mercedes de la Cuesta Aguado</span><br>Financiación: 43.750 €<br><a href="resumenes.html?id=61" target="_blank">Resumen del Proyecto</a><br><br><b>Inteligencia Artificial Juridica Y Estado De Derecho</b> (Universidad de Cantabria)<br>IP: <span style="color:blue; font-weight:bold;">José Ignacio Solar Cayon</span><br>Financiación: 40.000 €<br><a href="resumenes.html?id=62" target="_blank">Resumen del Proyecto</a><br><br></div>`)[0];
+                popup_e572c615c01105717f391132770ba252.setContent(html_f8358c3c1430d23fc7179ca6335e1930);
+            
+        
+
+        marker_1031cc7c41359cd0607f2d36bb59fac2.bindPopup(popup_e572c615c01105717f391132770ba252)
+        ;
+
+        
+    
+    
+                marker_1031cc7c41359cd0607f2d36bb59fac2.setIcon(icon_6da9fccc2a9720160dead6d717e536ce);
+            
+    
+            var marker_874e696e3c512d6cdc9a13ae200b6997 = L.marker(
+                [43.3614, -5.8593],
+                {
+}
+            ).addTo(marker_cluster_2bf2c1aa69ad655062524cddbc1b67cf);
+        
+    
+            var icon_981ee85ce4a3e82fed65bb39a50bb6d6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b3c2b95574805c06704fdf8e1e0b3bf1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3a8da88984a1fa57db65f2ac7f4e423e = $(`<div id="html_3a8da88984a1fa57db65f2ac7f4e423e" style="width: 100.0%; height: 100.0%;"><b>Los Retos De La Inteligencia Artificial Para El Estado Social Y Democratico De Derecho</b> (Universidad de Oviedo)<br>IP: <span style="color:blue; font-weight:bold;">Miguel Ángel Presno Linera </span><br>Financiación: 45.000 €<br><a href="resumenes.html?id=75" target="_blank">Resumen del Proyecto</a><br><br></div>`)[0];
+                popup_b3c2b95574805c06704fdf8e1e0b3bf1.setContent(html_3a8da88984a1fa57db65f2ac7f4e423e);
+            
+        
+
+        marker_874e696e3c512d6cdc9a13ae200b6997.bindPopup(popup_b3c2b95574805c06704fdf8e1e0b3bf1)
+        ;
+
+        
+    
+    
+                marker_874e696e3c512d6cdc9a13ae200b6997.setIcon(icon_981ee85ce4a3e82fed65bb39a50bb6d6);
+            
+    
+            var marker_ddbb353f1e73ae0ac90e707fc8ac6b87 = L.marker(
+                [42.2406, -8.7207],
+                {
+}
+            ).addTo(marker_cluster_2bf2c1aa69ad655062524cddbc1b67cf);
+        
+    
+            var icon_ec2a1dcbc76ca8a8aa3bab8281bb7f2c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4e7b55e059f1091b9113d6b6a2de11f9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_392c50c1fb8f4b431ddb66cfe23a922c = $(`<div id="html_392c50c1fb8f4b431ddb66cfe23a922c" style="width: 100.0%; height: 100.0%;"><b>Mejora De La Seguridad En Carreteras A Traves De Tecnologias Enfocadas Al Digital Twin</b> (Universidad de Vigo)<br>IP: <span style="color:blue; font-weight:bold;">PEDRO ARIAS SANCHEZ</span><br>Financiación: 212.500 €<br><a href="resumenes.html?id=82" target="_blank">Resumen del Proyecto</a><br><br><b>Desigualdad Y Oportunidades: El Papel De La Inseguridad Economica, Las Politicas Laborales Y La Educacion</b> (Universidad de Vigo)<br>IP: <span style="color:blue; font-weight:bold;">Coral del Río Otero</span><br>Financiación: 62.500 €<br><a href="resumenes.html?id=83" target="_blank">Resumen del Proyecto</a><br><br></div>`)[0];
+                popup_4e7b55e059f1091b9113d6b6a2de11f9.setContent(html_392c50c1fb8f4b431ddb66cfe23a922c);
+            
+        
+
+        marker_ddbb353f1e73ae0ac90e707fc8ac6b87.bindPopup(popup_4e7b55e059f1091b9113d6b6a2de11f9)
+        ;
+
+        
+    
+    
+                marker_ddbb353f1e73ae0ac90e707fc8ac6b87.setIcon(icon_ec2a1dcbc76ca8a8aa3bab8281bb7f2c);
+            
+    
+            var marker_e875fb87ffa9ad96ca0960f8745faed9 = L.marker(
+                [41.6488, -0.8891],
+                {
+}
+            ).addTo(marker_cluster_2bf2c1aa69ad655062524cddbc1b67cf);
+        
+    
+            var icon_f9941e98d4f5ec9741595cb7130f0c35 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b85e6d0fb8886ce37fd614951d12cd4e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ed17bfba7694257f460b47bd27eb777e = $(`<div id="html_ed17bfba7694257f460b47bd27eb777e" style="width: 100.0%; height: 100.0%;"><b>El Derecho Penal Ante Los Retos Actuales De La Biomedicina</b> (Universidad de Zaragoza)<br>IP: <span style="color:blue; font-weight:bold;">Asier Urruela Mora</span><br>Financiación: 60.000 €<br><a href="resumenes.html?id=84" target="_blank">Resumen del Proyecto</a><br><br><b>Blockchain Y Derecho Societario (2). Bigdata, Fintech Y La Proteccion Del Usuario De Los Servicios Financieros</b> (Universidad de Zaragoza)<br>IP: <span style="color:blue; font-weight:bold;">  Pedro Bueso Guillen- Reyes Pala Laguna  </span><br>Financiación: 52.500 €<br><a href="resumenes.html?id=85" target="_blank">Resumen del Proyecto</a><br><br></div>`)[0];
+                popup_b85e6d0fb8886ce37fd614951d12cd4e.setContent(html_ed17bfba7694257f460b47bd27eb777e);
+            
+        
+
+        marker_e875fb87ffa9ad96ca0960f8745faed9.bindPopup(popup_b85e6d0fb8886ce37fd614951d12cd4e)
+        ;
+
+        
+    
+    
+                marker_e875fb87ffa9ad96ca0960f8745faed9.setIcon(icon_f9941e98d4f5ec9741595cb7130f0c35);
+            
+    
+            marker_cluster_2bf2c1aa69ad655062524cddbc1b67cf.addTo(map_65f1c82ce9f0215478c40b9a6b89060a);
+        
+</script>
+</html>
