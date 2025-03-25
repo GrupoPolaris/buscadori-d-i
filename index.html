@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Proyectos</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        input, select { margin: 5px; padding: 8px; width: 200px; }
+        .proyecto { border: 1px solid #ddd; padding: 10px; margin-top: 10px; border-radius: 5px; background: #f9f9f9; }
+    </style>
+</head>
+<body>
+    <h1>Buscador de Proyectos</h1>
+    <input type="text" id="titulo" placeholder="Buscar por título">
+    <input type="text" id="ip" placeholder="Buscar por IP">
+    <input type="text" id="universidad" placeholder="Buscar por universidad">
+    <input type="text" id="comunidad" placeholder="Buscar por Comunidad Autónoma">
+    <input type="number" id="financiacion" placeholder="Financiación mínima">
+    <button onclick="filtrarProyectos()">Buscar</button>
+    
+    <div id="resultados"></div>
+    
+    <script>
+        let proyectos = [];
+        
+        // Cargar proyectos desde JSON generado en el backend
+        fetch("proyectos.json")
+            .then(response => response.json())
+            .then(data => { proyectos = data; });
+        
+        function filtrarProyectos() {
+            let titulo = document.getElementById("titulo").value.toLowerCase();
+            let ip = document.getElementById("ip").value.toLowerCase();
+            let universidad = document.getElementById("universidad").value.toLowerCase();
+            let comunidad = document.getElementById("comunidad").value.toLowerCase();
+            let financiacion = document.getElementById("financiacion").value;
+            
+            let resultados = proyectos.filter(proyecto => 
+                (titulo === "" || proyecto.nombre.toLowerCase().includes(titulo)) &&
+                (ip === "" || proyecto.IP.toLowerCase().includes(ip)) &&
+                (universidad === "" || proyecto.universidad.toLowerCase().includes(universidad)) &&
+                (comunidad === "" || proyecto.comunidad.toLowerCase().includes(comunidad)) &&
+                (financiacion === "" || parseFloat(proyecto.financiacion.replace("€", "").replace(".", "")) >= parseFloat(financiacion))
+            );
+            
+            mostrarResultados(resultados);
+        }
+        
+        function mostrarResultados(resultados) {
+            let contenedor = document.getElementById("resultados");
+            contenedor.innerHTML = "";
+            
+            if (resultados.length === 0) {
+                contenedor.innerHTML = "<p>No se encontraron resultados</p>";
+                return;
+            }
+            
+            resultados.forEach(proyecto => {
+                let div = document.createElement("div");
+                div.classList.add("proyecto");
+                div.innerHTML = `<b>${proyecto.nombre}</b> (${proyecto.universidad})<br>
+                                 IP: ${proyecto.IP}<br>
+                                 Comunidad: ${proyecto.comunidad}<br>
+                                 Financiación: ${proyecto.financiacion}<br>
+                                 <a href="resumenes.html?id=${proyecto.id}" target="_blank">Ver Resumen</a>`;
+                contenedor.appendChild(div);
+            });
+        }
+    </script>
+</body>
+</html>

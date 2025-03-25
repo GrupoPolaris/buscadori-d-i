@@ -1,0 +1,930 @@
+[
+    {
+        "id": 0,
+        "nombre": "TECNICAS AVANZADAS DE INTELIGENCIA ARTIFICIAL PARA DETECTAR Y COMBATIR ATAQUES DE CIBERSEGURIDAD DESCONOCIDOS Y ADVERSARIOS.",
+        "IP": "Juan Ignacio Rivas Sánchez",
+        "universidad": "Universidad de Valladolid",
+        "comunidad": "Castilla y León",
+        "financiacion": "87.782 €"
+    },
+    {
+        "id": 1,
+        "nombre": "DESARROLLO DE MODELOS DE COMPORTAMIENTO DE USUARIOS VULNERABLES MEDIANTE LA SIMULACION DE SITUACIONES DE RIESGO POTENCIAL EN ESCENARIOS DE TRAFICO URBANO EMPLEANDO REALIDAD VIRTUAL",
+        "IP": "Francisco Javier Páez Ayuso",
+        "universidad": "Universidad Politécnica de Madrid",
+        "comunidad": "Madrid",
+        "financiacion": "169.400 €"
+    },
+    {
+        "id": 2,
+        "nombre": "RESISTENCIA TRANSFORMADORA EN LAS ESCUELAS. CONTRANARRATIVAS EN LA EDUCACION PARA LA JUSTICIA SOCIAL",
+        "IP": "Francisco Javier Murillo Torrecilla",
+        "universidad": "Universidad Autónoma de Madrid",
+        "comunidad": "Madrid",
+        "financiacion": "81.070 €"
+    },
+    {
+        "id": 3,
+        "nombre": "EN LOS LIMITES DE LA VIOLENCIA (III): LA VIOLENCIA LENTA DE LOS IMPERIOS MODERNOS",
+        "IP": "Igor Pérez Tostado",
+        "universidad": "Universidad Pablo de Olavide de Sevilla",
+        "comunidad": "Andalucía",
+        "financiacion": "49.126 €"
+    },
+    {
+        "id": 4,
+        "nombre": "USO DE SISTEMAS TECNOLOGICOS AVANZADOS PARA FAVORECER ENTORNOS ESCOLARES LIBRES DE VIOLENCIA Y PROMOTORES DE BIENESTAR Y SALUD MENTAL",
+        "IP": "Ferran Casas Aznar",
+        "universidad": "Universitat de Girona",
+        "comunidad": "Catalunya",
+        "financiacion": "66.308 €"
+    },
+    {
+        "id": 5,
+        "nombre": "SERVICIOS DE SEGURIDAD BASADOS EN LA TECNOLOGIA BLOCKCHAIN",
+        "IP": "María Francisca Hinajeros Campos",
+        "universidad": "Universidad de las Islas Baleares",
+        "comunidad": "Islas Baleares",
+        "financiacion": "75.383 €"
+    },
+    {
+        "id": 6,
+        "nombre": "GESTION ROBUSTA, INTERPRETABLE Y ORIENTADA A HUMANOS DE LA CIBERSEGURIDAD Y LA SEGURIDAD EN LA INDUSTRIA 5.0",
+        "IP": "Félix Jesús García Clemente",
+        "universidad": "Universidad de Murcia",
+        "comunidad": "Murcia",
+        "financiacion": "220.704 €"
+    },
+    {
+        "id": 7,
+        "nombre": "SIMULADORES DE CONDUCCION Y TECNOLOGIAS GEOESPACIALES PARA ESTUDIOS DE SEGURIDAD VIAL",
+        "IP": "María Castro Malpica",
+        "universidad": "Universidad Politécnica de Madrid",
+        "comunidad": "Madrid",
+        "financiacion": "146.410 €"
+    },
+    {
+        "id": 8,
+        "nombre": "A CONDENA DE LOS EXCLUIDOS: FRONTERAS INSTITUCIONALES DE LOS DERECHOS HUMANOS",
+        "IP": "Alberto Daunis Rodríguez",
+        "universidad": "Universidad de Málaga",
+        "comunidad": "Andalucía",
+        "financiacion": "24.200 €"
+    },
+    {
+        "id": 9,
+        "nombre": "VARIABLES PSICOAMBIENTALES IMPLICADAS EN LA PREOCUPACION SOCIAL Y EN LA CONDUCTA FRENTE AL MALTRATO ANIMAL",
+        "IP": "Ana María Martín Rodríguez",
+        "universidad": "Universidad de La Laguna",
+        "comunidad": "Canarias",
+        "financiacion": "61.468 €"
+    },
+    {
+        "id": 10,
+        "nombre": "CONDICIONES DE SEGURIDAD DE PERIODISTAS ESPAÑOLES QUE CUBREN CONFLICTOS: ELEMENTOS DEFINITORIOS Y ANALISIS DE SU SEGURIDAD ANTES, DURANTE Y DESPUES DE LA COBERTURA",
+        "IP": "Leire Iturregui Mardaras",
+        "universidad": "Universidad del País Vasco",
+        "comunidad": "País Vasco",
+        "financiacion": "77.319 €"
+    },
+    {
+        "id": 11,
+        "nombre": "NECESIDADES Y DERECHOS DE LAS HIJAS E HIJOS DEL FEMINICIDIO: UNA APROXIMACION TRANSDISCIPLINAR A LAS CONSECUENCIAS DE LA VIOLENCIA DE GENERO EN EL CONTEXTO DE LA COVID-19",
+        "IP": "Eva Zafra Aparici",
+        "universidad": "Universitat Rovira i Virgili",
+        "comunidad": "Catalunya",
+        "financiacion": "50.820 €"
+    },
+    {
+        "id": 12,
+        "nombre": "ESTRATEGIAS TRANSVERSALES PARA LA PREVENCION DE LA DELINCUENCIA ECONOMICA Y LA CORRUPCION",
+        "IP": "Íñigo Ortíz de Urbina Gimeno",
+        "universidad": "Universidad Complutense de Madrid",
+        "comunidad": "Madrid",
+        "financiacion": "25.410 €"
+    },
+    {
+        "id": 13,
+        "nombre": "CONDUCCION AUTONOMA Y SEGURIDAD JURIDICA DEL TRANSPORTE",
+        "IP": "Josep María De Dios Marcer",
+        "universidad": "Universitat Autónoma de Barcelona",
+        "comunidad": "Catalunya",
+        "financiacion": "47.190 €"
+    },
+    {
+        "id": 14,
+        "nombre": "VIOLENCIA SEXUAL DIGITAL. ESTUDIO DE LA RELACION ENTRE LAS TECNOLOGIAS DIGITALES Y LAS PRACTICAS DE VIOLENCIA SEXUAL ENTRE JOVENES.",
+        "IP": "Elisa García Mingo",
+        "universidad": "Universidad Complutense de Madrid",
+        "comunidad": "Madrid",
+        "financiacion": "78.650 €"
+    },
+    {
+        "id": 15,
+        "nombre": "FACTORES DE RIESGO Y DE PROTECCION DE LA VIOLENCIA DE GENERO Y DEL USO PROBLEMATICO EN LAS REDES SOCIALES: UNA PERSPECTIVA LONGITUDINAL",
+        "IP": "María del Carmen Martínez Monteagudo",
+        "universidad": "Universidad de Alicante",
+        "comunidad": "Comunidad Valenciana",
+        "financiacion": "44.359 €"
+    },
+    {
+        "id": 16,
+        "nombre": "VIOLENCIA CONTRA LAS MUJERES: CONSECUENCIAS PARA SU BIENESTAR PSICOSOCIAL",
+        "IP": "Francisca Exposito ",
+        "universidad": "Universidad de Granada",
+        "comunidad": "Andalucía",
+        "financiacion": "108.658 €"
+    },
+    {
+        "id": 17,
+        "nombre": "CLAVES PARA UNA JUSTICIA DIGITAL Y ALGORITMICA CON PERSPECTIVA DE GENERO",
+        "IP": "Ana Montesinos García",
+        "universidad": "Universidad de Valencia",
+        "comunidad": "Comunidad Valenciana",
+        "financiacion": "32.670 €"
+    },
+    {
+        "id": 18,
+        "nombre": "RESILIENCIA DEL DERECHO ANTIDISCRIMINATORIO A LOS SESGOS Y ESTEREOTIPOS: DESAFIOS Y PROPUESTAS DE INTERVENCION",
+        "IP": "Dolores Morondo Taramundi",
+        "universidad": "Universidad de la Iglesia de Deusto",
+        "comunidad": "País Vasco",
+        "financiacion": "41.272 €"
+    },
+    {
+        "id": 19,
+        "nombre": "VIOLENCIA PSICOLOGICA PARA LA DOMINACION EN CONTEXTOS INTERPERSONALES Y GRUPALES",
+        "IP": "Alvaro Rodriguez Carballeira",
+        "universidad": "Universidad de Barcelona",
+        "comunidad": "Catalunya",
+        "financiacion": "46.779 €"
+    },
+    {
+        "id": 20,
+        "nombre": "LA EROSION DEL PRINCIPIO DE LEGALIDAD EN EL SISTEMA DE JUSTICIA PENAL CONTEMPORANEO: DIAGNOSTICO Y PROPUESTAS DE SOLUCION",
+        "IP": "Lucía Martínez Garay",
+        "universidad": "Universidad de Valencia",
+        "comunidad": "Comunidad Valenciana",
+        "financiacion": "42.592 €"
+    },
+    {
+        "id": 21,
+        "nombre": "HISTORIA Y PRESENTE DEL CONTROL SOCIAL, LAS INSTITUCIONES PUNITIVAS Y LOS CUERPOS DE SEGURIDAD EN ESPAÑA (SIGLOS XX-XXI): PRACTICAS, DISCURSOS Y REPRESENTACIONES CULTURALES",
+        "IP": "Pedro Oliver Olmo",
+        "universidad": "Universidad de Castilla-La Mancha",
+        "comunidad": "Castilla-La Mancha",
+        "financiacion": "44.165 €"
+    },
+    {
+        "id": 22,
+        "nombre": "EL DERECHO PROCESAL CIVIL Y PENAL DESDE LA PERSPECTIVA DE LA UNION EUROPEA: LA CONSOLIDACION DEL ESPACIO DE LIBERTAD, SEGURIDAD Y JUSTICIA",
+        "IP": "Mar Jimeno Bulnes",
+        "universidad": "Universidad de Burgos",
+        "comunidad": "Castilla y León",
+        "financiacion": "44.770 €"
+    },
+    {
+        "id": 23,
+        "nombre": "COMPETENCIAS CLAVE DEL PROFESORADO PARA LA PREVENCION DE LAS CIBERCONDUCTAS ANTISOCIALES DEL ALUMNADO EN LA ESO",
+        "IP": "Vicente J. Llorent",
+        "universidad": "Universidad de Córdoba",
+        "comunidad": "Andalucía",
+        "financiacion": "31.097 €"
+    },
+    {
+        "id": 24,
+        "nombre": "DERECHO GLOBAL Y CRISIS SANITARIAS: HACIA UNA CONVENCION MUNDIAL CONTRA LAS PANDEMIAS",
+        "IP": "Esperanza Castellanos Ruiz",
+        "universidad": "Universidad de Murcia",
+        "comunidad": "Murcia",
+        "financiacion": "49.852 €"
+    },
+    {
+        "id": 25,
+        "nombre": "IMPACTO DEL \"BYSTANDER INTERVENTION\" PARA UNA CULTURA ESCOLAR SUPERADORA DE LA VIOLENCIA DE GENERO.",
+        "IP": "Carmen García Yeste",
+        "universidad": "UNIVERSITAT ROVIRA I VIRGILI",
+        "comunidad": "Cataluña",
+        "financiacion": "60.500 €"
+    },
+    {
+        "id": 26,
+        "nombre": "REPRESENTACION MEDIATICA DE LAS AUTOLESIONES DE LOS MENORES EN LOS MEDIOS DE COMUNICACION Y REDES SOCIALES",
+        "IP": "Esther Martínez Pastor",
+        "universidad": "Universidad Rey Juan Carlos",
+        "comunidad": "Madrid",
+        "financiacion": "52.635 €"
+    },
+    {
+        "id": 27,
+        "nombre": "TRAYECTORIAS DE VIDA DE AGRESORES Y VICTIMAS DE VIOLENCIA EN PAREJA",
+        "IP": "Jorge Rodríguez Menes",
+        "universidad": "UNIVERSITAT POMPEU FABRA CCT",
+        "comunidad": "Cataluña",
+        "financiacion": "78.650 €"
+    },
+    {
+        "id": 28,
+        "nombre": "LA MANIPULACION INFORMATIVA COMO PROBLEMA DE SEGURIDAD Y DE CALIDAD DEMOCRATICA: DESCRIPCION,",
+        "IP": "Jose Julio Fernández Rodríguez",
+        "universidad": "Universidad de Santiago de Compostela",
+        "comunidad": "Galicia- A Coruña",
+        "financiacion": "39.930 €"
+    },
+    {
+        "id": 29,
+        "nombre": "NUEVOS RETOS Y REFORMAS PENDIENTES DE LA JUSTICIA PENAL DE MENORES",
+        "IP": "Sergi Cardenal Montraveta",
+        "universidad": "Universidad de Barcelona",
+        "comunidad": "Cataluña",
+        "financiacion": "36.542 €"
+    },
+    {
+        "id": 30,
+        "nombre": "IMPACTO DE LA TUITERIZACION DE LA OPINION PUBLICA SOBRE EL DERECHO PENAL Y CONSECUENCIAS PARA EL DEBATE EN TORNO A SU DEMOCRATIZACION",
+        "IP": "Nuria Reche Tello",
+        "universidad": "Universidad Miguel Hernández De Elche",
+        "comunidad": "Comunidad Valenciana",
+        "financiacion": "88.330 €"
+    },
+    {
+        "id": 31,
+        "nombre": "CONFLICTOS ARMADOS Y CRISIS HUMANITARIAS: LAS HUMANIDADES Y CIENCIAS SOCIALES ANTE LOS DESAFIOS DE LA SEGURIDAD MULTIDIMENSIONAL",
+        "IP": "LYDIA MARIA\nDE TIENDA PALOP",
+        "universidad": "Universidad Complutense de Madrid",
+        "comunidad": "Madrid",
+        "financiacion": "31.460 €"
+    },
+    {
+        "id": 32,
+        "nombre": "DOTANDO DE CIBERSEGURIDAD SOSTENIBLE A LA INTERNET DE LAS COSAS - CIBERSEGURIDAD",
+        "IP": "Jordi Castellà Roca",
+        "universidad": "FUNDACIO PER A LA UNIVERSITAT OBERTA DE CATALUNYA",
+        "comunidad": "Cataluña",
+        "financiacion": "132.132 €"
+    },
+    {
+        "id": 33,
+        "nombre": "DOTANDO DE CIBERSEGURIDAD SOSTENIBLE A LA INTERNET DE LAS COSAS (SECURINGDATA)",
+        "IP": "Jordi Castellà Roca",
+        "universidad": "UNIVERSITAT ROVIRA I VIRGILI",
+        "comunidad": "Cataluña",
+        "financiacion": "78.650 €"
+    },
+    {
+        "id": 34,
+        "nombre": "DOTANDO DE CIBERSEGURIDAD SOSTENIBLE A LA INTERNET DE LAS COSAS - SECURING/NET",
+        "IP": "Jordi Herrera-Joancomartí",
+        "universidad": "Universidad Autónoma de Barcelona",
+        "comunidad": "Cataluña",
+        "financiacion": "99.341 €"
+    },
+    {
+        "id": 35,
+        "nombre": "JUSTICIA DIGITAL PARA ASUNTOS TRANSFRONTERIZOS",
+        "IP": "Carmen María García Mirete",
+        "universidad": "Universidad de Alicante",
+        "comunidad": "Comunidad Valenciana",
+        "financiacion": "20.361 €"
+    },
+    {
+        "id": 36,
+        "nombre": "JUSTICIA. RETOS DE LA AGENDA 2030",
+        "IP": "Alicia González Navarro",
+        "universidad": "Universidad de la Laguna",
+        "comunidad": "Canarias",
+        "financiacion": "62.315 €"
+    },
+    {
+        "id": 37,
+        "nombre": "BLANQUEO DE DINERO, MUNDO DIGITAL, REFORMAS DE 2021 Y LA POSIBILIDAD DE UN DERECHO PENAL EUROPEO",
+        "IP": "Miguel Abel Souto",
+        "universidad": "Universidad de Santiago de Compostela",
+        "comunidad": "Galicia- A Coruña",
+        "financiacion": "24.200 €"
+    },
+    {
+        "id": 38,
+        "nombre": "INTERACCION HUMANA CON DISPOSITIVOS INTELIGENTES EN DOMINIOS DE SEGURIDAD Y DE SALUD DIGITAL",
+        "IP": "Javier Ortega García",
+        "universidad": "Universidad Autonóma de Madrid",
+        "comunidad": "Madrid",
+        "financiacion": "220.220 €"
+    },
+    {
+        "id": 39,
+        "nombre": "CRISIS DEL ESTADO DE DERECHO EN LA UE. ESPECIAL REFERENCIA A POLONIA, HUNGRIA, CROACIA, ESTONIA, ESPAÑA E ITALIA Y A LA INCIDENCIA DE LA PANDEMIA",
+        "IP": "Susana Sanz Caballero",
+        "universidad": "FUNDACION UNIVERSITARIA SAN PABLO CEU",
+        "comunidad": "Comunidad Valenciana",
+        "financiacion": "38.720 €"
+    },
+    {
+        "id": 40,
+        "nombre": "DESAFIOS DE UNA ADMINISTRACION TRIBUTARIA MAS EFICAZ: DIGITALIZACION INCLUSIVA, COMPLIANCE, Y MEJORAS EN SEGURIDAD JURIDICA",
+        "IP": "María Ángeles Guervós Maíllo",
+        "universidad": "Universidad de Salamanca",
+        "comunidad": "Castilla y León",
+        "financiacion": "21.780 €"
+    },
+    {
+        "id": 41,
+        "nombre": "ESTABILIDAD Y CAMBIO DE LA CONDUCTA AGRESIVA EN LA INFANCIA Y LA NIÑEZ: LA INFLUENCIA DEL ENTRENAMIENTO EN INTELIGENCIA EMOCIONAL",
+        "IP": "Rosario Cabello González",
+        "universidad": "Universidad de Granada",
+        "comunidad": "Andalucía",
+        "financiacion": "53.240 €"
+    },
+    {
+        "id": 42,
+        "nombre": "VIOLENCIA FILIO-PARENTAL EN LA ADOLESCENCIA: DETECCION, PERFILES PSICOSOCIALES Y ACTUACION",
+        "IP": "María Victoria Hidalgo García",
+        "universidad": "Universidad de Sevilla",
+        "comunidad": "Andalucía",
+        "financiacion": "38.357 €"
+    },
+    {
+        "id": 43,
+        "nombre": "EL ESPACIO DE LIBERTAD, SEGURIDAD Y JUSTICIA EN TIEMPOS INCIERTOS: FUTURO Y RETOS JURIDICOS",
+        "IP": "Francisco Javier Donaire Villa",
+        "universidad": "Universidad Carlos III de Madrid",
+        "comunidad": "Madrid",
+        "financiacion": "57.112 €"
+    },
+    {
+        "id": 44,
+        "nombre": "LA CONCILIACION DEL DERECHO A LA PROTECCION DE DATOS CON EL CUMPLIMIENTO POR LOS PODERES PUBLICOS DEL DEBER DE TRANSPARENCIA Y DE LUCHA CONTRA LA CORRUPCION.",
+        "IP": "Gloria González Fuster",
+        "universidad": "Universitat Jaume I de Castellón",
+        "comunidad": "Comunidad Valenciana",
+        "financiacion": "53.482 €"
+    },
+    {
+        "id": 45,
+        "nombre": "TRATAMIENTO PROCESAL DE LOS DELITOS DE ODIO COMETIDOS A TRAVES DE MEDIOS TECNOLOGICOS",
+        "IP": "Federico Bueno de Mata",
+        "universidad": "Universidad de Salamanca",
+        "comunidad": "Castilla y León",
+        "financiacion": "30.250 €"
+    },
+    {
+        "id": 46,
+        "nombre": "SECUELAS NEUROPSICOLOGICAS Y CEREBRALES ASOCIADAS A GOLPES REPETIDOS EN EL CRANEO EN MUJERES VICTIMAS DE VIOLENCIA DE GENERO",
+        "IP": "Juan Verdejo Román",
+        "universidad": "Universidad de Granada",
+        "comunidad": "Andalucía",
+        "financiacion": "114.708 €"
+    },
+    {
+        "id": 47,
+        "nombre": "WHAT4WHOM: PERCEPCIONES DE SEGURIDAD EN EL ESCENARIO DE LA PANDEMIA COVID-19",
+        "IP": "Sergio Caballero",
+        "universidad": "Universitat Ramón Llul",
+        "comunidad": "Cataluña",
+        "financiacion": "36.300 €"
+    },
+    {
+        "id": 48,
+        "nombre": "VIGILANCIA ACUSTICA INTELIGENTE DE INTERIORES PARA EL ANALISIS Y MODELADO DE ESCENAS PARA LA DETECCION DE COMPORTAMIENTOS ANOMALOS DE PERSONAS Y MAQUINAS",
+        "IP": "Manuel Rosa Zurera",
+        "universidad": "Universidad de Alcala",
+        "comunidad": "Madrid",
+        "financiacion": "217.800 €"
+    },
+    {
+        "id": 49,
+        "nombre": "Victimización asociada a acoso escolar en alumnado con necesidades específicas de apoyo educativo relacionadas con dificultades del lenguaje",
+        "IP": "Daniel Adrover Roig",
+        "universidad": "Universidad de las Islas Baleares",
+        "comunidad": "Islas Baleares",
+        "financiacion": "61.952 €"
+    },
+    {
+        "id": 50,
+        "nombre": "DESIGUALDADES, PRIVILEGIOS Y JUSTICIA GLOBAL. PAUTAS NORMATIVAS PARA UNA SOCIEDAD INCLUSIVA",
+        "IP": "Juan Carlos Velasco",
+        "universidad": "Agencia Estatal Consejo Superior de Investigaciones Cientificas (CSIC)",
+        "comunidad": "Madrid",
+        "financiacion": "27.500 €"
+    },
+    {
+        "id": 51,
+        "nombre": "RESPUESTAS INSTITUCIONALES AL CAMBIANTE ORDEN DE SEGURIDAD EUROPEO",
+        "IP": "Elisabeth Johansson-Nogués",
+        "universidad": "Fundación Institut Barcelona D Estudis Internacionals",
+        "comunidad": "Cataluña",
+        "financiacion": "62.500 €"
+    },
+    {
+        "id": 52,
+        "nombre": "HACIA UNA CORTE INTERNACIONAL DE JUSTICIA DEL SIGLO XXI",
+        "IP": "Mº Soledad Torrecuadrada García-Lozano",
+        "universidad": "Universidad Autónoma de Madrid",
+        "comunidad": "Madrid",
+        "financiacion": "46.375 €"
+    },
+    {
+        "id": 53,
+        "nombre": "CONDUCTA DE INTERVENCION EN EL CIBERODIO Y EN LA DIFUSION DE FAKE NEWS: PREDICTORES LONGITUDINALES ENTRE ADOLESCENTES",
+        "IP": "Manuel Gamez Guadix",
+        "universidad": "Universidad Autónoma de Madrid",
+        "comunidad": "Madrid",
+        "financiacion": "71.875 €"
+    },
+    {
+        "id": 54,
+        "nombre": "CIBERSEGURIDAD A DISTANCIA",
+        "IP": "Juan Manuel Estevez Tapiador",
+        "universidad": "Universidad Carlos III de Madrid",
+        "comunidad": "Madrid",
+        "financiacion": "112.375 €"
+    },
+    {
+        "id": 55,
+        "nombre": "PREVENCION TRANSCULTURAL DE LAS CIBERVIOLENCIAS EN PAREJAS ADOLESCENTES. DESARROLLO Y EVALUACION DE UN PROGRAMA VIRTUAL Y COMUNITARIO",
+        "IP": "Josefa Lozano Martínez",
+        "universidad": "Universidad de Almería",
+        "comunidad": "Andalucía",
+        "financiacion": "45.875 €"
+    },
+    {
+        "id": 56,
+        "nombre": "ENTENDIENDO LA COHESION SOCIAL: LA INTERACCION ENTRE EDUCACION Y LAS CONDUCTAS DELICTIVAS",
+        "IP": "José María Gurán Cabré",
+        "universidad": "Universidad de Barcelona",
+        "comunidad": "Cataluña",
+        "financiacion": "26.500 €"
+    },
+    {
+        "id": 57,
+        "nombre": "VIOLENCIA EXTREMA SOBRE LA MUJER: RESPUESTA PENAL Y ALTERNATIVAS PARA LA PREVENCION",
+        "IP": "Carolina Bolea Bardon",
+        "universidad": "Universidad de Barcelona",
+        "comunidad": "Cataluña",
+        "financiacion": "46.250 €"
+    },
+    {
+        "id": 58,
+        "nombre": "RESOLUCION Y PREVENCION DE CONFLICTOS SOCIETARIOS: BUEN GOBIERNO, PACTOS DE SOCIOS, EFICIENCIA PROCESAL, MEDIOS ALTERNATIVOS A LA LITIGACION Y JUSTICIA PREDICTIVA",
+        "IP": "Daniel Vázquez Albert ",
+        "universidad": "Universidad de Barcelona",
+        "comunidad": "Cataluña",
+        "financiacion": "46.250 €"
+    },
+    {
+        "id": 59,
+        "nombre": "TENSIONES ENTRE EL DERECHO A LA VIVIENDA Y LA PROPIEDAD PRIVADA EN LAS RELACIONES DE ARRENDAMIENTO. UN ENFOQUE SOCIOJURIDICO",
+        "IP": "Irene Sabaté Muriel",
+        "universidad": "Universidad de Barcelona",
+        "comunidad": "Cataluña",
+        "financiacion": "72.250 €"
+    },
+    {
+        "id": 60,
+        "nombre": "VIVENCIAS DE MUJERES Y PROFESIONALES SANITARIOS EN LA PERDIDA PERINATAL E INTERRUPCION DE EMBARAZO: VULNERABILIDAD, VIOLENCIA OBSTETRICA Y TOMA DE DECISIONES",
+        "IP": "Josefina Goberna-Tricas",
+        "universidad": "Universidad de Barcelona",
+        "comunidad": "Cataluña",
+        "financiacion": "44.750 €"
+    },
+    {
+        "id": 61,
+        "nombre": "DERECHO PENAL Y DISTRIBUCION DE LA RIQUEZA EN LA SOCIEDAD TECNOLOGICA (II)",
+        "IP": "Paz Mercedes de la Cuesta Aguado",
+        "universidad": "Universidad de Cantabria",
+        "comunidad": "Cantabria ",
+        "financiacion": "43.750 €"
+    },
+    {
+        "id": 62,
+        "nombre": "INTELIGENCIA ARTIFICIAL JURIDICA Y ESTADO DE DERECHO",
+        "IP": "José Ignacio Solar Cayon",
+        "universidad": "Universidad de Cantabria",
+        "comunidad": "Cantabria ",
+        "financiacion": "40.000 €"
+    },
+    {
+        "id": 63,
+        "nombre": "GEMELOS DIGITALES HUMANOS PARA FOMENTAR UN COMPORTAMIENTO PROSOCIAL",
+        "IP": "Víctor Manuel López Jaquero",
+        "universidad": "Universidad de Castilla-La Mancha",
+        "comunidad": "Castilla-La Mancha ",
+        "financiacion": "119.500 €"
+    },
+    {
+        "id": 64,
+        "nombre": "VIOLENCIAS CONTRA LAS MUJERES: ANALISIS PSICOSOCIAL DE NUEVAS FORMAS DE EXPRESION Y MECANISMOS EXPLICATIVOS",
+        "IP": "Hugo Carretero Dios ",
+        "universidad": "Universidad de Granada",
+        "comunidad": "Andalucía",
+        "financiacion": "88.125 €"
+    },
+    {
+        "id": 65,
+        "nombre": "SECUELAS NEUROPSICOLOGICAS EN HIJOS E HIJAS DE MUJERES VICTIMAS DE VIOLENCIA DE GENERO (BELIEVE-CHILD)",
+        "IP": "Inmaculada María Teva Álvarez",
+        "universidad": "Universidad de Granada",
+        "comunidad": "Andalucía",
+        "financiacion": "115.000 €"
+    },
+    {
+        "id": 66,
+        "nombre": "LA (DIS)REGULACION EMOCIONAL EN EL TRASTORNO DE ESTRES POST-TRAUMATICO COMPLEJO EN MUJERES SUPERVIVIENTES DE VIOLENCIA DE GENERO: MECANISMOS CEREBRALES Y APP PARA MEJORARLA",
+        "IP": "Miguel Pérez García",
+        "universidad": "Universidad de Granada",
+        "comunidad": "Andalucía",
+        "financiacion": "187.500 €"
+    },
+    {
+        "id": 67,
+        "nombre": "EL PAPEL DEL FUNCIONAMIENTO EJECUTIVO EN EL TRASTORNO DE ESTRES POSTRAUMATICO COMPLEJO EN MUJERES SUPERVIVIENTES DE VIOLENCIA DE GENERO",
+        "IP": "Natalia Adriana Hidalgo Ruzzante ",
+        "universidad": "Universidad de Granada",
+        "comunidad": "Andalucía",
+        "financiacion": "124.875 €"
+    },
+    {
+        "id": 68,
+        "nombre": "APRENDIZAJE-SERVICIO UNIVERSITARIO CON MIGRANTES EN LA FRONTERA AFRICA- EUROPA. INCLUSION Y JUSTICIA SOCIAL EN EDUCACION INTERCULTURAL,ACTIVIDAD FISICA Y APRENDIZAJE DE IDIOMAS",
+        "IP": "Pedro Jesús Ruiz Montero ",
+        "universidad": "Universidad de Granada",
+        "comunidad": "Melilla",
+        "financiacion": "49.875 €"
+    },
+    {
+        "id": 69,
+        "nombre": "ANTE LA TERCERA BRECHA DIGITAL DE GENERO Y CIBERVIOLENCIAS EN LA INFANCIA: COEDUCACION, OPOTUNIDADES Y RESISTENCIAS.",
+        "IP": "Estibaliz Linares Bahillo",
+        "universidad": "Universidad de la Iglesia de Deusto ",
+        "comunidad": "País Vasco",
+        "financiacion": "134.000 €"
+    },
+    {
+        "id": 70,
+        "nombre": "DERECHO PENAL DE CLASE: PROPUESTAS DE LEGE LATA Y DE LEGE FERENDA",
+        "IP": "Demelsa Benito Sánchez",
+        "universidad": "Universidad de la Iglesia de Deusto ",
+        "comunidad": "País Vasco",
+        "financiacion": "42.500 €"
+    },
+    {
+        "id": 71,
+        "nombre": "NUEVOS RETOS Y PERSPECTIVAS EN EL ESTUDIO DE LA VIOLENCIA FILIO-PARENTAL: FACTORES DE PROTECCION Y DESISTIMIENTO EN POBLACION GENERAL Y CLINICA",
+        "IP": "Liria Fernández González",
+        "universidad": "Universidad de la Iglesia de Deusto ",
+        "comunidad": "País Vasco",
+        "financiacion": "100.000 €"
+    },
+    {
+        "id": 72,
+        "nombre": "APLICACIONES DE TECNOLOGIAS CUANTICAS EN CIBERSEGURIDAD",
+        "IP": "Pino Teresa Caballero Gil ",
+        "universidad": "Universidad de la Laguna",
+        "comunidad": "Canarias",
+        "financiacion": "125.000 €"
+    },
+    {
+        "id": 73,
+        "nombre": "LOS CRIMENES DE HONOR COMO VIOLENCIA DE GENERO: DELINEAMIENTO DE UN ESTATUTO JURIDICO-ASISTENCIAL PROTECTOR EN ESPAÑA",
+        "IP": "Carolina Villacampa Estiarte",
+        "universidad": "Universidad de Lleida",
+        "comunidad": "Cataluña",
+        "financiacion": "106.250 €"
+    },
+    {
+        "id": 74,
+        "nombre": "RESPUESTAS JURIDICAS Y CRIMINOLOGICAS A LOS DELITOS COMETIDOS POR MENORES DE EDAD CON TRASTORNO POR DEFICIT DE ATENCION E HIPERACTIVIDAD (TDAH)",
+        "IP": "David Lorenzo Morillas Fernández",
+        "universidad": "Universidad de Murcia",
+        "comunidad": "Murcia",
+        "financiacion": "33.125 €"
+    },
+    {
+        "id": 75,
+        "nombre": "LOS RETOS DE LA INTELIGENCIA ARTIFICIAL PARA EL ESTADO SOCIAL Y DEMOCRATICO DE DERECHO",
+        "IP": "Miguel Ángel Presno Linera ",
+        "universidad": "Universidad de Oviedo",
+        "comunidad": "Principado de Asturias ",
+        "financiacion": "45.000 €"
+    },
+    {
+        "id": 76,
+        "nombre": "ANALISIS CRITICO DEL DERECHO PENAL DE LA PLUTOFILIA (PLUTOPENAL)",
+        "IP": "Ana Isabel Pérez Cepeda",
+        "universidad": "Universidad de Salamanca",
+        "comunidad": "Castilla y León",
+        "financiacion": "50.000 €"
+    },
+    {
+        "id": 77,
+        "nombre": "DERECHOS Y GARANTIAS PUBLICAS FRENTE A LAS DECISIONES AUTOMATIZADAS Y EL SESGO Y DISCRIMINACION ALGORITMICAS",
+        "IP": "Jorge Castellanos Claramunt ",
+        "universidad": "Universidad de Valencia ",
+        "comunidad": "Comunidad Valenciana",
+        "financiacion": "44.375 €"
+    },
+    {
+        "id": 78,
+        "nombre": "GANANCIAS ILICITAS Y SISTEMA DE JUSTICIA PENAL: UNA PERSPECTIVA GLOBAL",
+        "IP": "José León Alapont ",
+        "universidad": "Universidad de Valencia ",
+        "comunidad": "Comunidad Valenciana",
+        "financiacion": "66.250 €"
+    },
+    {
+        "id": 79,
+        "nombre": "DESARROLLO Y APLICACION DE UN SISTEMA DE MONITORIZACION EPIDEMIOLOGICA PARA LA VIGILANCIA Y PREDICCION DEL RIESGO DE VIOLENCIA DE GENERO EN ESPAÑA",
+        "IP": "Enrique Gracia Fuster",
+        "universidad": "Universidad de Valencia ",
+        "comunidad": "Comunidad Valenciana",
+        "financiacion": "62.500 €"
+    },
+    {
+        "id": 80,
+        "nombre": "EVALUACION, PREVENCION E INTERVENCION DE CONDUCTAS SUICIDAS EN PERSONAS MAYORES QUE VIVEN EN RESIDENCIAS",
+        "IP": "Alicia Sales Galan",
+        "universidad": "Universidad de Valencia ",
+        "comunidad": "Comunidad Valenciana",
+        "financiacion": "19.750 €"
+    },
+    {
+        "id": 81,
+        "nombre": "NUEVOS PARADIGMAS EN LA REPRESENTACION CULTURAL DE LOS ESPACIOS DE VIOLENCIA DE MASAS: MIRAR Y CONTAR EL SIGLO XX DESDE EL XXI",
+        "IP": "Vicente Sánchez Biosca",
+        "universidad": "Universidad de Valencia ",
+        "comunidad": "Comunidad Valenciana",
+        "financiacion": "75.000 €"
+    },
+    {
+        "id": 82,
+        "nombre": "MEJORA DE LA SEGURIDAD EN CARRETERAS A TRAVES DE TECNOLOGIAS ENFOCADAS AL DIGITAL TWIN",
+        "IP": "PEDRO\nARIAS SANCHEZ",
+        "universidad": "Universidad de Vigo",
+        "comunidad": "Galicia",
+        "financiacion": "212.500 €"
+    },
+    {
+        "id": 83,
+        "nombre": "DESIGUALDAD Y OPORTUNIDADES: EL PAPEL DE LA INSEGURIDAD ECONOMICA, LAS POLITICAS LABORALES Y LA EDUCACION",
+        "IP": "Coral del Río Otero",
+        "universidad": "Universidad de Vigo",
+        "comunidad": "Galicia",
+        "financiacion": "62.500 €"
+    },
+    {
+        "id": 84,
+        "nombre": "EL DERECHO PENAL ANTE LOS RETOS ACTUALES DE LA BIOMEDICINA",
+        "IP": "Asier Urruela Mora",
+        "universidad": "Universidad de Zaragoza",
+        "comunidad": "Aragón",
+        "financiacion": "60.000 €"
+    },
+    {
+        "id": 85,
+        "nombre": "BLOCKCHAIN Y DERECHO SOCIETARIO (2). BIGDATA, FINTECH Y LA PROTECCION DEL USUARIO DE LOS SERVICIOS FINANCIEROS",
+        "IP": "\n Pedro Bueso Guillen- Reyes Pala Laguna \n",
+        "universidad": "Universidad de Zaragoza",
+        "comunidad": "Aragón",
+        "financiacion": "52.500 €"
+    },
+    {
+        "id": 86,
+        "nombre": "IDENTIDADES COLECTIVAS Y JUSTICIA PENAL: UN ENFOQUE INTERDISCIPLINAR",
+        "IP": "José Nuñez Fernández",
+        "universidad": "UNIVERSIDAD NACIONAL DE EDUCACION A DISTANCIA",
+        "comunidad": "Madrid",
+        "financiacion": "37.500 €"
+    },
+    {
+        "id": 87,
+        "nombre": "EL PAPEL DE LOS SISTEMAS DE CONTROL DE GESTION PARA EVITAR COMPORTAMIENTOS DISFUNCIONALES EN EL CUMPLIMIENTO DE LOS OBJETIVOS DE DESARROLLO SOSTENIBLE EN LAS ORGANIZACIONES",
+        "IP": "Laura María Gómez Ruiz",
+        "universidad": "UNIVERSIDAD PABLO DE OLAVIDE, DE SEVILLA",
+        "comunidad": "Andalucía",
+        "financiacion": "57.500 €"
+    },
+    {
+        "id": 88,
+        "nombre": "INFANCIA QUE CONVIVE CON LA VIOLENCIA DE GENERO: REDES DE APOYO QUE LES AYUDAN A SER SUPERVIVIENTES",
+        "IP": "Patricia Melgar Alcantud",
+        "universidad": "UNIVERSITAT DE GIRONA",
+        "comunidad": "Cataluña",
+        "financiacion": "52.750 €"
+    },
+    {
+        "id": 89,
+        "nombre": "DESIGUALDAD Y OPORTUNIDADES: EL PAPEL DE LA INSEGURIDAD ALIMENTARIA, LA EDUCACION Y LAS PREFERENCIAS PRO-SOCIALES",
+        "IP": "Sara Ayllón Gatnau",
+        "universidad": "UNIVERSITAT DE GIRONA",
+        "comunidad": "Cataluña",
+        "financiacion": "34.750 €"
+    },
+    {
+        "id": 90,
+        "nombre": "DEFINICION Y VALIDACION DE LOS REQUISITOS DE SEGURIDAD, RENDIMIENTO E INTEROPERABILIDAD PARA EL FUTURO MARCO DE COMUNICACIONES Y VIGILANCIA DEL U- SPACE",
+        "IP": "Juan Vicente Balbastre Tejedor",
+        "universidad": "UNIVERSITAT POLITÈCNICA DE VALÈNCIA",
+        "comunidad": "Comunidad Valenciana",
+        "financiacion": "156.250 €"
+    },
+    {
+        "id": 91,
+        "nombre": "JUVENICIDIOS MORALES. DE LAS BANDAS JUVENILES A LOS MENORES MIGRANTES",
+        "IP": "Carles Feixa Pàmpols",
+        "universidad": "UNIVERSITAT POMPEU FABRA CCT",
+        "comunidad": "Cataluña",
+        "financiacion": "87.500 €"
+    },
+    {
+        "id": 92,
+        "nombre": "REFORZANDO LOS DERECHOS DE LAS PERSONAS TRABAJADORAS EN RIESGO DE EXCLUSION SOCIAL EN LA ECONOMIA VERDE Y CIRCULAR",
+        "IP": "Consuelo Chacartegui Jávega",
+        "universidad": "UNIVERSITAT POMPEU FABRA CCT",
+        "comunidad": "Cataluña",
+        "financiacion": "23.438 €"
+    },
+    {
+        "id": 93,
+        "nombre": "LA (DIS)REGULACION EMOCIONAL EN EL TRASTORNO DE ESTRES POST- TRAUMATICO COMPLEJO EN MUJERES SUPERVIVIENTES DE VIOLENCIA DE GENERO: MECANISMOS CEREBRALES Y APP PARA MEJORARLA",
+        "IP": "MIGUEL\nPÉREZ GARCÍA",
+        "universidad": "Universidad de Granada",
+        "comunidad": "Andalucía",
+        "financiacion": "187.500 €"
+    },
+    {
+        "id": 94,
+        "nombre": "APRENDIZAJE-SERVICIO UNIVERSITARIO CON MIGRANTES EN LA FRONTERA AFRICA-EUROPA. INCLUSION Y JUSTICIA SOCIAL EN EDUCACION INTERCULTURAL,ACTIVIDAD FISICA Y APRENDIZAJE DE IDIOMAS",
+        "IP": "Pedro Jesús Ruiz Montero ",
+        "universidad": "Universidad de Granada",
+        "comunidad": "Melilla",
+        "financiacion": "111.758 €"
+    },
+    {
+        "id": 95,
+        "nombre": "EL PAPEL DE LA EXCLUSION INTERGRUPAL EN EL FOMENTO DEL EXTREMISMO VIOLENTO: VULNERABILIDAD, IMPACTO CONDUCTUAL Y ESTRATEGIAS DE MITIGACION",
+        "IP": " Clara Helena Pretus Gomez ",
+        "universidad": "Universidad Autónoma de Barcelona",
+        "comunidad": "Barcelona",
+        "financiacion": "66.625 €"
+    },
+    {
+        "id": 96,
+        "nombre": "SAFENARRATIVES: NARRATIVAS PREVENTIVAS BASADAS EN EVIDENCIAS CIENTIFICAS PREVENTIVAS DE LA VIOLENCIA DE GENERO",
+        "IP": "Cristina Pulido Rodriguez ",
+        "universidad": "Universidad Autónoma de Barcelona",
+        "comunidad": "Barcelona",
+        "financiacion": "67.500 €"
+    },
+    {
+        "id": 97,
+        "nombre": "CONDUCTA AGRESIVA Y PROBLEMAS DE CONDUCTA: DESARROLLO Y HETEGENEIDAD EN LA COHORTE LONGITUDINAL ABDC EN INFANCIA MEDIA Y TARDIA",
+        "IP": " Beatriz Molinuevo Alonso",
+        "universidad": "Universidad Autónoma de Barcelona",
+        "comunidad": "Barcelona",
+        "financiacion": "119.000 €"
+    },
+    {
+        "id": 98,
+        "nombre": "PERFILES DE RIESGO PARA LA REVICTIMIZACION EN VIOLENCIA DE GENERO: UN ESTUDIO LONGITUDINAL",
+        "IP": "Natalia Redondo Rodriguez",
+        "universidad": "Universidad Autónoma de Madrid",
+        "comunidad": "Madrid",
+        "financiacion": "63.375 €"
+    },
+    {
+        "id": 99,
+        "nombre": "GENERO Y SISTEMAS DE SEGURIDAD VIAL - ANALISIS DEL IMPACTO DE LAS VARIABLES DE GENERO EN LA RESPUESTA DE LOS SISTEMAS DE RETENCION A FRENADAS DE EMERGENCIA",
+        "IP": "SILVIA  SANTOS CUADROS ",
+        "universidad": "Universidad Carlos III de Madrid",
+        "comunidad": "Madrid",
+        "financiacion": "62.500 €"
+    },
+    {
+        "id": 100,
+        "nombre": "CONTROL ADAPTATIVO DE DINAMICA DE FLUJOS DE PEATONES SOBRE TECNOLOGIAS ULTRA-WIDEBAND+B5G PARA LA SEGURIDAD Y EFICIENCIA DE EVACUACIONES",
+        "IP": "Miguel Ángel López Carmona",
+        "universidad": "Universidad de Alcala",
+        "comunidad": "Madrid",
+        "financiacion": "145.000 €"
+    },
+    {
+        "id": 101,
+        "nombre": "DESAFIOS ACTUALES PARA LOS DERECHOS FUNDAMENTALES Y NUEVOS RETOS DE LAS POLITICAS PUBLICAS: GOBERNANZA DEMOCRATICA, BRECHAS DE LA DESIGUALDAD E INTELIGENCIA ARTIFICIAL",
+        "IP": "\nFERNANDO\nBALLESTER LAGUNA",
+        "universidad": "Universidad de Alicante",
+        "comunidad": "Comunidad Valenciana",
+        "financiacion": "25.625 €"
+    },
+    {
+        "id": 102,
+        "nombre": "SUPERACION DE LA VIOLENCIA SEXUAL Y DE GENERO HACIA MUJERES JOVENES EN EL OCIO NOCTURNO.",
+        "IP": "Sin información",
+        "universidad": "Universidad de Barcelona",
+        "comunidad": "Barcelona",
+        "financiacion": "43.750 €"
+    },
+    {
+        "id": 103,
+        "nombre": "VIOLENCIA DE GENERO EN LAS UNIVERSIDADES ESPAÑOLAS: BALANCE DE LOS AVANCES 2005 2025, SITUACION ACTUAL Y ACCIONES FUTURAS",
+        "IP": "Marta Soler Gallart",
+        "universidad": "Universidad de Barcelona",
+        "comunidad": "Barcelona",
+        "financiacion": "37.500 €"
+    },
+    {
+        "id": 104,
+        "nombre": "MOTIVACIONES,VIOLENCIA DE PAREJA Y SUS CONSECUENCIAS (MOVIOCON): DESARROLLO Y VALIDACION DE UNA HERRAMIENTA PARA ESCLARECER EL DEBATE DE LA SIMETRIA DE GENERO EN LA VIOLENCIA",
+        "IP": "ANTONELLA LUDMILA ZAPATA CALVENTE",
+        "universidad": "Universidad de Granada",
+        "comunidad": "Andalucía",
+        "financiacion": "25.000 €"
+    },
+    {
+        "id": 105,
+        "nombre": "POLITICAS FEMINISTAS: ANALISIS DE PRACTICAS NO PUNITIVAS Y MODELOS ALTERNATIVOS EN EL CONTEXTO DE LAS VIOLENCIAS MACHISTAS",
+        "IP": "ANA\nALCÁZAR CAMPOS",
+        "universidad": "Universidad de Granada",
+        "comunidad": "Andalucía",
+        "financiacion": "81.250 €"
+    },
+    {
+        "id": 106,
+        "nombre": "LAS COMPETENCIAS DE LOS FORMADORES EN LA INTERVENCION SOCIOEDUCATIVA FAMILIAR ANTE LOS NUEVOS RETOS DE LA PREVENCION DE COMPORTAMIENTOS DE RIESGO EN ADOLESCENTES",
+        "IP": "María del Carmen Orte Socías",
+        "universidad": "Universidad de las Islas Baleares",
+        "comunidad": "Baleares",
+        "financiacion": "98.125 €"
+    },
+    {
+        "id": 107,
+        "nombre": "DESARROLLO DE UNA HERRAMIENTA DE CIBERSEGURIDAD BASADA EN LA BIOMETRIA DE LAS CONTRASEÑAS MANUSCRITAS",
+        "IP": "Carlos Manuel Travieso González",
+        "universidad": "Universidad de las Palmas de Gran Canaria",
+        "comunidad": "Las Palmas",
+        "financiacion": "103.500 €"
+    },
+    {
+        "id": 108,
+        "nombre": "PREVENCION DE LA CONDUCTA SUICIDA A TRAVES DE LOS PROCESOS DE COMUNICACION EFECTIVA Y RISK ANALYTICS",
+        "IP": "José Ignacio Peláez Sánchez",
+        "universidad": "Universidad de Málaga",
+        "comunidad": "Andalucía",
+        "financiacion": "112.500 €"
+    },
+    {
+        "id": 109,
+        "nombre": "USO SEGURO Y NO VIOLENTO DE LAS REDES SOCIALES EN ADOLESCENTES: ANALISIS DE LOS FACTORES ASOCIADOS Y SU IMPACTO EN LA ACTUACION PSICOEDUCATIVA",
+        "IP": "Mónica Ojeda Pérez",
+        "universidad": "Universidad de Sevilla",
+        "comunidad": "Andalucía",
+        "financiacion": "100.000 €"
+    },
+    {
+        "id": 110,
+        "nombre": "TECNICAS CRIPTO-BIOMETRICAS Y SOLUCIONES HARDWARE PARA CARTERAS DE IDENTIDADES AUTO-SOBERANAS CON ALTO NIVEL DE SEGURIDAD",
+        "IP": "Ángel Barriga Barros",
+        "universidad": "Universidad de Sevilla",
+        "comunidad": "Andalucía",
+        "financiacion": "184.500 €"
+    },
+    {
+        "id": 111,
+        "nombre": "EL DERECHO PENAL Y LA CRIMINOLOGIA ANTE LOS NUEVOS DESAFIOS DE LA CRIMINALIDAD CLIMATICA: HACIA UNA JUSTICIA CLIMATICA AL SERVICIO DE LOS DERECHOS HUMANOS",
+        "IP": "Ana Isabel Pérez Machío",
+        "universidad": "UNIVERSIDAD DEL PAIS VASCO EUSKAL HERRIKO UNIBERTSITATEA",
+        "comunidad": "País Vasco",
+        "financiacion": "48.750 €"
+    },
+    {
+        "id": 112,
+        "nombre": "HERRAMIENTAS PARA EL EJERCICIO DE LOS DERECHOS LABORALES DE MUJERES EN RIESGO DE EXCLUSION",
+        "IP": "Djamil Tony\nKahale Carrillo",
+        "universidad": "Universidad Politécnica de Cartagena",
+        "comunidad": "Murcia",
+        "financiacion": "45.000 €"
+    },
+    {
+        "id": 113,
+        "nombre": "EFECTIVIDAD DE UN PROGRAMA BREVE PARA LA PREVENCION SELECTIVA DEL COMPORTAMIENTO SUICIDA EN PERSONAS EN TRATAMIENTO POR TRASTORNOS RELACIONADOS CON SUSTANCIAS",
+        "IP": "Jose Javier López Goñi ",
+        "universidad": "Universidad Pública de Navarra",
+        "comunidad": "Navarra",
+        "financiacion": "77.375 €"
+    },
+    {
+        "id": 114,
+        "nombre": "TRANSFORMACION DE LA SEGURIDAD Y LA CONVIVENCIA EN LAS CIUDADES MEDIAS.",
+        "IP": "Cristina Fernández Bessa",
+        "universidad": "Universidad de Coruña",
+        "comunidad": "Galicia",
+        "financiacion": "40.000 €"
+    },
+    {
+        "id": 115,
+        "nombre": "MUJERES MIGRANTES Y TRABAJO ESENCIAL EN ESPAÑA. IMPLICACIONES PARA LAS POLITICAS MIGRATORIAS, EL EJERCICIO DE DERECHOS Y LOS CUIDADOS TRANSNACIONALES EN LA POSPANDEMIA",
+        "IP": "A. Pérez Caramés ",
+        "universidad": "Universidad de Coruña",
+        "comunidad": "Galicia",
+        "financiacion": "71.250 €"
+    }
+]
