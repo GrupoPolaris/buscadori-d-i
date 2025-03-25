@@ -1,4 +1,3 @@
-// Esperar a que la página cargue
 document.addEventListener("DOMContentLoaded", function () {
     const proyectosContainer = document.getElementById("proyectos-lista");
     const inputBusqueda = document.getElementById("buscador");
